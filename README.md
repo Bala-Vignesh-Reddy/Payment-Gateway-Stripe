@@ -1,4 +1,3 @@
-# Payment Gateway using Stripe
 ---
 
 # Payment Gateway with Stripe
