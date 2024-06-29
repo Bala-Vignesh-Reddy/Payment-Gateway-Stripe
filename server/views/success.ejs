@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thanks for your order!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <p>
+    Your Payment Was Successful!! 
+    If you have any questions, please email
+    <a href="mailto:e.waste@gmail.com">e.waste@gmail.com</a>.
+    </p>
+  </section>
+  <p>Redirecting to homepage in <span id="countdown">5</span> seconds...</p>
+  <script>
+      let countdown = 5;
+      const countdownElement = document.getElementById('countdown');
+
+      const interval = setInterval(() => {
+          countdown--;
+          countdownElement.textContent = countdown;
+          if (countdown === 0) {
+              clearInterval(interval);
+              window.location.href = '/';
+          }
+      }, 1000);
+  </script>
+</body>
+</html>

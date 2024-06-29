@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        .item-details {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="container">Order Placement</h1>
+    <div class="container">
+        <h2>Enter Item Details</h2>
+        <form id="itemForm" action="/checkout" method="POST">
+            <label for="item">Item:</label>
+            <input type="text" id="item" name="item" required><br><br>
+            
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required><br><br>
+            
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" required><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
