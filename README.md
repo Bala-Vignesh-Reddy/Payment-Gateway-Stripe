@@ -21,7 +21,7 @@ This project is a simple payment gateway integration using Stripe, Node.js, and 
 
 **Using Docker**:
 
-```bash
+   ```bash
     docker pull balavignesh26/stripe-gateway
     docker run -p 3000:3000 balavignesh26/stripe-gateway
    ```
@@ -57,7 +57,7 @@ This project is a simple payment gateway integration using Stripe, Node.js, and 
    npm run dev
    ```
 
-   The server will start on `http://localhost:5000`.
+   The server will start on `http://localhost:3000`.
 
 ## Usage
 
