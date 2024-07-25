@@ -18,6 +18,13 @@ This project is a simple payment gateway integration using Stripe, Node.js, and 
 - Stripe API
 
 ## Installation
+**Using Docker**:
+    ```bash 
+    docker pull balavignesh26/stripe-gateway
+    docker run -p 3000:3000 balavignesh26/stripe-gateway 
+    ```
+
+** Manual Method**
 
 1. **Clone the repository**:
 
